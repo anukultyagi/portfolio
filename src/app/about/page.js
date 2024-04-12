@@ -24,7 +24,7 @@ const About = () => {
                     </div>
                     <div className="my-8">
                         <p className="text-zinc-400">
-                            Hey, I'm <strong className="text-white">Anukul Tyagi</strong> . I'm all about making websites feel like
+                            Hey, I&apos;m <strong className="text-white">Anukul Tyagi</strong> . I'm all about making websites feel like
                             home. Based in <strong className="text-white">Noida</strong>, I'm here to bring a personal touch to the
                             digital space.
                             <br />
