@@ -12,7 +12,7 @@ const Navbar = () => {
     return (
         <div className={`${pathname === '/' ? 'cursor-none' : ''}`}>
             <nav className={`container max-w-6xl mx-auto p-3 flex items-center justify-between `}>
-                <div >
+                <div className="hover:text-white">
                     <Link
                         className={`text-xl text-zinc-400 hover:text-white ${pathname === '/' ? 'cursor-none' : ''}`}
                         href="/"
