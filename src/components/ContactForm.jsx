@@ -45,7 +45,7 @@ const ContactForm = () => {
         setSenderEmail(e.target.value)
     }
     return (
-        <form className=" flex flex-col gap-5 p-5 w-4/5" onSubmit={sendEmailFormHandler} ref={form}>
+        <form className=" flex flex-col gap-5 p-5 w-full sm:w-4/5 " onSubmit={sendEmailFormHandler} ref={form}>
             <div className='flex flex-col gap-2'>
                 <span className='text-lg text-zinc-400'>Dear Anukul Tyagi,</span>
                 <textarea

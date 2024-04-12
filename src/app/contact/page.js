@@ -14,7 +14,7 @@ const Contact = () => {
                     <h1 className='text-5xl'>Get in Touch!!</h1>
                     <p className='px-5 text-zinc-400 text-end'>Reach out at "anukultyagi321@gmail.com"</p>
                 </div>
-                <div className='flex my-10'>
+                <div className='flex md:flex-row flex-col my-10'>
                     <div className='basis-1/2 p-5'>
                         <CursorEyeBall />
                     </div>
