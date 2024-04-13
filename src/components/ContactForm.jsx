@@ -1,11 +1,17 @@
 import React, { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser';
 import Button from '@/components/Button'
+
+
+
+
 const ContactForm = () => {
 
     const [senderMessage, setSenderMessage] = useState('')
     const [senderEmail, setSenderEmail] = useState('')
     const [error, setError] = useState(false)
+    const [successful, setSuccessful] = useState(false)
+
 
 
 
@@ -30,7 +36,10 @@ const ContactForm = () => {
             })
             .then(
                 () => {
-                    console.log('SUCCESS!');
+                    setSuccessful(true);
+                    setTimeout(() => {
+                        setSuccessful(false);
+                    }, 3000);
                 },
                 (error) => {
                     console.log('FAILED...', error.text);
@@ -45,7 +54,7 @@ const ContactForm = () => {
         setSenderEmail(e.target.value)
     }
     return (
-        <form className=" flex flex-col gap-5 p-5 w-full sm:w-4/5 " onSubmit={sendEmailFormHandler} ref={form}>
+        <form className=" flex flex-col gap-5 p-3 sm:p-5 w-full sm:w-4/5 " onSubmit={sendEmailFormHandler} ref={form}>
             <div className='flex flex-col gap-2'>
                 <span className='text-lg text-zinc-400'>Dear Anukul Tyagi,</span>
                 <textarea
@@ -67,7 +76,9 @@ const ContactForm = () => {
                 />
             </div>
             {error ? <p className='text-red-400 text-sm'>*Please fill both values</p> : null}
+            {successful ? <p className='text-green-400 text-sm'>Sent successfully ✔</p> : null}
             <Button className="" type='submit'>Send</Button>
+
         </form>
     )
 }

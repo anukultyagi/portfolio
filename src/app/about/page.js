@@ -10,38 +10,37 @@ import { motion } from "framer-motion";
 const About = () => {
     return (
         <div>
-            <div className="mx-auto container max-w-6xl p-3">
+            <div className="mx-auto container max-w-6xl p-3 py-10">
                 <div className="">
-                    <div className="my-5 select-none">
+                    <div className="md:mb-10 mb-6 select-none">
                         <motion.h1
                             initial={{ opacity: 0, x: -50 }}
                             animate={{ opacity: 1, x: 0 }}
                             transition={{ duration: 0.5 }}
-                            className="text-6xl text-center text-zinc-400"
+                            className="text-6xl text-center text-white"
                         >
                             Hey there.
                         </motion.h1>
                     </div>
-                    <div className="my-8">
-                        <p className="text-zinc-400">
+                    <div className="md:mb-28 mb-10">
+                        <p className="text-zinc-400 leading-8">
                             Hey, I&apos;m <strong className="text-white">Anukul Tyagi</strong> . I'm all about making websites feel like
                             home. Based in <strong className="text-white">Noida</strong>, I'm here to bring a personal touch to the
                             digital space.
+                            <br />
+                            When I'm not coding, you can find me on the <strong className="text-white">volleyball</strong> court or
+                            enjoying a game of <strong className="text-white">badminton</strong> . Sports keep me grounded and
+                            inspired, ready to tackle any challenge that comes my way.
                             <br />
                             <br />
                             So, let's <strong className="text-white">collaborate</strong>  and create something amazing together!
                             Whether you're looking to refresh your website or start from
                             scratch, I'm here to turn your digital dreams into reality. Take a
                             peek at my portfolio, and let's make magic happen!
-                            <br />
-                            <br />
-                            When I'm not coding, you can find me on the <strong className="text-white">volleyball</strong> court or
-                            enjoying a game of <strong className="text-white">badminton</strong> . Sports keep me grounded and
-                            inspired, ready to tackle any challenge that comes my way.
                         </p>
                     </div>
-                    <div>
-                        <section className="mt-10 flex flex-col gap-y-2">
+                    <div className="md:mb-28">
+                        <section className=" flex flex-col gap-y-2">
                             <h1 className="text-xl md:text-3xl ">
                                 Tech Stack
                                 <svg
@@ -237,8 +236,8 @@ const About = () => {
                             </div>
                         </section>
                     </div>
-                    <div>
-                        <main className="mt-8 min-h-[calc(100vh_-_132px)] ">
+                    <div className="">
+                        <main className="min-h-[calc(100vh_-_132px)] ">
                             <h2 className="mb-5 text-xl md:text-3xl font-medium">Work</h2>
                             <p className="text-zinc-400">
                                 I'm a <strong className="text-white">Frontend Developer</strong>{" "}
@@ -267,8 +266,7 @@ const About = () => {
                                         <p className="text-sm mt-3 list-item ml-3 text-zinc-400">
                                             Gained an understanding and the importance of
                                             maintaining consistency and accessibility throughout the
-                                            UI. Gained experience of using version control git that
-                                            allowed me to collaborate effectively.
+                                            UI.
                                         </p>
                                         <p className="text-sm mt-3 list-item ml-3 text-zinc-400">
                                             Gained experience of using version control git that
