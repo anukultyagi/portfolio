@@ -10,14 +10,14 @@ import { motion } from "framer-motion";
 const About = () => {
     return (
         <div>
-            <div className="mx-auto container max-w-6xl p-3 py-10">
+            <div className="mx-auto container max-w-6xl p-3 pt-10">
                 <div className="">
                     <div className="md:mb-10 mb-6 select-none">
                         <motion.h1
                             initial={{ opacity: 0, x: -50 }}
                             animate={{ opacity: 1, x: 0 }}
                             transition={{ duration: 0.5 }}
-                            className="text-6xl text-center text-white"
+                            className="sm:text-5xl text-3xl text-center text-white"
                         >
                             Hey there.
                         </motion.h1>
@@ -39,7 +39,7 @@ const About = () => {
                             peek at my portfolio, and let's make magic happen!
                         </p>
                     </div>
-                    <div className="md:mb-28">
+                    <div className="md:mb-28 mb-10">
                         <section className=" flex flex-col gap-y-2">
                             <h1 className="text-xl md:text-3xl ">
                                 Tech Stack
@@ -248,7 +248,7 @@ const About = () => {
                                 <b className="font-normal text-white">independently.</b>
                             </p>
                             <span className="mt-12 h-0 block"></span>
-                            <div className="mb-8 ms-12">
+                            <div className="mb-8 ms-8 sm:ms-12">
                                 <h2 className="text-xl font-medium">Aqusag Technologies</h2>
                                 <p className="md:text-base text-zinc-400">Noida, India</p>
                                 <div className="md:pl-8 positions mt-4">
@@ -275,7 +275,7 @@ const About = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="mb-8 ms-12">
+                            <div className="mb-8 ms-8 sm:ms-12">
                                 <h2 className="text-xl font-medium">Freelancer</h2>
                                 <p className="md:text-base text-zinc-400">Noida, India</p>
                                 <div className="md:pl-8 positions mt-4">
