@@ -14,7 +14,7 @@ const Navbar = () => {
                     <Link
                         className={`text-xl text-zinc-400 hover:text-white ${pathname === '/' ? 'cursor-none' : ''}`}
                         href="/"
-                        previewlistener="true"
+
                     >
                         {brandName}
                     </Link>
@@ -24,7 +24,7 @@ const Navbar = () => {
                         <Link
                             className={`flex items-center hover:text-white pl-1 ${pathname === '/about' ? 'text-white' : 'text-zinc-400'} ${pathname === '/' ? 'cursor-none' : ''}`}
                             href="/about"
-                            previewlistener="true"
+
                         >
                             about
                         </Link>
@@ -42,7 +42,7 @@ const Navbar = () => {
                         <Link
                             className={`flex items-center pl-1 hover:text-white ${pathname === '/contact' ? 'text-white' : 'text-zinc-400'} ${pathname === '/' ? 'cursor-none' : ''}`}
                             href="/contact"
-                            previewlistener="true"
+
                         >
                             contact
                         </Link>
