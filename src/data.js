@@ -1,4 +1,4 @@
-import { portfolioThumbnail, ipAddressTrackerThumbnail, noteTakrThumbnail, chromeVaultThumbnail, translatorThumbnail } from "./assets";
+import { portfolioThumbnail, ipAddressTrackerThumbnail, noteTakrThumbnail, chromeVaultThumbnail, translatorThumbnail, bankingthumbnail } from "./assets";
 
 export const brandName = '<anukul />';
 
@@ -46,6 +46,15 @@ export const workData = [
         tags: ["HTML", "CSS", "JavaScript"],
         imageUrl: translatorThumbnail,
         link: "https://the-translator.netlify.app/",
+        repo: false,
+    },
+    {
+        id: 6,
+        title: "The Hoo Bank ",
+        description: "A translation app supporting multiple languages using Next.js and Express for server-side processing.",
+        tags: ["React", "Tailwind"],
+        imageUrl: bankingthumbnail,
+        link: "https://banking-page.netlify.app/",
         repo: false,
     },
 ];

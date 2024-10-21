@@ -4,9 +4,7 @@ import CursorEyeBall from '@/components/CursorEyeBall';
 import { motion } from 'framer-motion';
 import React from 'react';
 
-
 const Contact = () => {
-
 
     return (
         <motion.div
