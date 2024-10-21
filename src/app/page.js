@@ -6,6 +6,7 @@ import { motion } from 'framer-motion';
 const HomePage = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [cursorVariant, setCursorVariant] = useState('default');
+  const [isDarkMode, setIsDarkMode] = useState(false); // Track theme
 
   useEffect(() => {
     const handleMouseMove = (e) => {
@@ -14,13 +15,15 @@ const HomePage = () => {
 
     window.addEventListener('mousemove', handleMouseMove);
 
+
     return () => {
       window.removeEventListener('mousemove', handleMouseMove);
     };
   }, []);
 
   const scale = cursorVariant === 'text' ? 3 : 1;
-  const mixBlendMode = cursorVariant === 'text' ? 'difference' : 'normal';
+  const mixBlendMode = cursorVariant === 'text' ? 'difference' : 'difference';
+
 
   return (
     <div className='cursor-none'>
@@ -36,7 +39,7 @@ const HomePage = () => {
           width: 10 * scale,
           height: 10 * scale,
           borderRadius: '50%',
-          backgroundColor: 'white',
+
           pointerEvents: 'none',
           zIndex: 9999,
           scale,

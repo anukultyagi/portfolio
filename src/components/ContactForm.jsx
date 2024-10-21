@@ -43,7 +43,7 @@ const ContactForm = () => {
 
     return (
         <form
-            className="flex flex-col gap-5 p-3 sm:p-5 w-full sm:w-4/5"
+            className="flex flex-col gap-10 p-3 sm:p-5 w-full sm:w-4/5"
             onSubmit={sendEmailFormHandler}
             ref={form}
         >
@@ -59,7 +59,7 @@ const ContactForm = () => {
                 />
             </div>
             <div className='flex flex-col gap-3'>
-                <span className='text-lg text-zinc-400'>My mail :</span>
+                {/* <span className='text-lg text-zinc-400'>My mail :</span> */}
                 <input
                     className="bg-transparent border-b border-b-white outline-none"
                     type="email"
