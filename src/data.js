@@ -33,7 +33,7 @@ export const workData = [
     {
         id: 4,
         title: "Note Takrr",
-        description: "A simple note-taking application built with Next.js and MongoDB for backend storage.",
+        description: "A simple note-taking application built with HTML, CSS, vanilla JavaScript and local storage.",
         tags: ["HTML", "CSS", "JavaScript"],
         imageUrl: noteTakrThumbnail,
         link: "https://note-takrr.netlify.app/",
@@ -42,7 +42,7 @@ export const workData = [
     {
         id: 5,
         title: "The Translator",
-        description: "A translation app supporting multiple languages using Next.js and Express for server-side processing.",
+        description: "A translation app supporting multiple languages using JavaScript, memory API and Web API.",
         tags: ["HTML", "CSS", "JavaScript"],
         imageUrl: translatorThumbnail,
         link: "https://the-translator.netlify.app/",
@@ -51,7 +51,7 @@ export const workData = [
     {
         id: 6,
         title: "The Hoo Bank ",
-        description: "A translation app supporting multiple languages using Next.js and Express for server-side processing.",
+        description: "A Banking landing page made using React.js and Tailwind. Responsive and well maintained",
         tags: ["React", "Tailwind"],
         imageUrl: bankingthumbnail,
         link: "https://banking-page.netlify.app/",
