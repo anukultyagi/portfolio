@@ -2,10 +2,11 @@
 import React from "react";
 import Link from "next/link";
 import { usePathname } from 'next/navigation'
+import { brandName } from "@/data";
 
 const Navbar = () => {
     const pathname = usePathname()
-    const brandName = '<anukul />'
+
 
     return (
         <div className={`${pathname === '/' ? 'cursor-none' : ''}`}>
