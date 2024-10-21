@@ -22,7 +22,7 @@ const Navbar = () => {
                 <ul className="flex gap-2 md:gap-5 items-center">
                     <li className="dark:text-zinc-400 text-zinc-700 hover:dark:text-white hover:text-zinc-900">
                         <Link
-                            className={`flex items-center pl-1 ${pathname === '/about' ? 'dark:text-white text-zinc-900' : 'dark:text-zinc-400 text-zinc-700'} ${pathname === '/' ? 'cursor-none' : ''}`}
+                            className={`flex items-center pl-1 ${pathname === '/about' ? 'dark:text-white text-zinc-900' : 'dark:text-zinc-400 hover:dark:text-white text-zinc-700'} ${pathname === '/' ? 'cursor-none' : ''}`}
                             href="/about"
                         >
                             about
@@ -30,7 +30,7 @@ const Navbar = () => {
                     </li>
                     <li className="dark:text-zinc-400 text-zinc-700 hover:dark:text-white hover:text-zinc-900">
                         <Link
-                            className={`flex items-center pl-1 ${pathname === '/work' ? 'dark:text-white text-zinc-900' : 'dark:text-zinc-400 text-zinc-700'} ${pathname === '/' ? 'cursor-none' : ''}`}
+                            className={`flex items-center pl-1 ${pathname === '/work' ? 'dark:text-white text-zinc-900' : 'dark:text-zinc-400 hover:dark:text-white text-zinc-700'} ${pathname === '/' ? 'cursor-none' : ''}`}
                             href="/work"
                         >
                             work
@@ -38,7 +38,7 @@ const Navbar = () => {
                     </li>
                     <li className="dark:text-zinc-400 text-zinc-700 hover:dark:text-white hover:text-zinc-900">
                         <Link
-                            className={`flex items-center pl-1 ${pathname === '/contact' ? 'dark:text-white text-zinc-900' : 'dark:text-zinc-400 text-zinc-700'} ${pathname === '/' ? 'cursor-none' : ''}`}
+                            className={`flex items-center pl-1 ${pathname === '/contact' ? 'dark:text-white text-zinc-900' : 'dark:text-zinc-400 hover:dark:text-white text-zinc-700'} ${pathname === '/' ? 'cursor-none' : ''}`}
                             href="/contact"
                         >
                             contact
@@ -46,7 +46,7 @@ const Navbar = () => {
                     </li>
                     <li>
                         <ThemeSwitcher
-                            className={`flex items-center pl-1 ${pathname === '/contact' ? 'dark:text-white text-zinc-900' : 'dark:text-zinc-400 text-zinc-700'} ${pathname === '/' ? 'cursor-none' : ''}`}
+                            className={`flex items-center pl-1 ${pathname === '/contact' ? 'dark:text-white text-zinc-900' : 'dark:text-zinc-400  hover:dark:text-white text-zinc-700'} ${pathname === '/' ? 'cursor-none' : ''}`}
                         />
                     </li>
                 </ul>

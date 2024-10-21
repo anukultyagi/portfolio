@@ -23,7 +23,7 @@ const HomePage = () => {
 
   const scale = cursorVariant === 'text' ? 3 : 1;
   const mixBlendMode = cursorVariant === 'text' ? 'difference' : 'difference';
-
+  const backgroundColor = 'white'
 
   return (
     <div className='cursor-none'>
@@ -39,7 +39,7 @@ const HomePage = () => {
           width: 10 * scale,
           height: 10 * scale,
           borderRadius: '50%',
-
+          backgroundColor,
           pointerEvents: 'none',
           zIndex: 9999,
           scale,
