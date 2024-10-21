@@ -29,7 +29,7 @@ const Navbar = () => {
                             about
                         </Link>
                     </li>
-                    {/* <li className="text-zinc-400 hover:text-white">
+                    <li className="text-zinc-400 hover:text-white">
                         <Link
                             className={`flex items-center pl-1 hover:text-white ${pathname === '/work' ? 'text-white' : 'text-zinc-400'} ${pathname === '/' ? 'cursor-none' : ''}`}
                             href="/work"
@@ -37,7 +37,7 @@ const Navbar = () => {
                         >
                             work
                         </Link>
-                    </li> */}
+                    </li>
                     <li className="text-zinc-400 hover:text-white">
                         <Link
                             className={`flex items-center pl-1 hover:text-white ${pathname === '/contact' ? 'text-white' : 'text-zinc-400'} ${pathname === '/' ? 'cursor-none' : ''}`}

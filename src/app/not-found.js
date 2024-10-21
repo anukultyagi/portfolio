@@ -9,7 +9,6 @@ const NotFound = () => {
             <p className="text-2xl mb-8 text-zinc-400">Oops! The page you're looking for doesn't exist.</p>
             <Link href="/" >
                 <Button>Go back to Home</Button>
-
             </Link>
 
         </div>
