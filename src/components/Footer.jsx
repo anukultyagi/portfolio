@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <footer className="p-6 flex items-center justify-between">
             <Link
-                className="text text-zinc-400 hover:text-white"
+                className="text-zinc-800 dark:text-zinc-400 hover:text-black font-semibold dark:hover:text-white"
                 href="/"
                 previewlistener="true"
             >
@@ -14,7 +14,7 @@ const Footer = () => {
             </Link>
             <ul className="flex gap-1 md:gap-3 items-center links">
 
-                <li className="text-zinc-400 hover:text-white">
+                <li className="text-zinc-800 dark:text-zinc-400 hover:text-black dark:hover:text-white">
                     <Link
                         className="flex items-center px-1 "
                         aria-label="Github"
@@ -22,8 +22,8 @@ const Footer = () => {
                         previewlistener="true"
                     >
                         <svg
-                            width="18"
-                            height="18"
+                            width="24"
+                            height="24"
                             viewBox="0 0 16 16"
                             fill="currentColor"
                             xmlns="http://www.w3.org/2000/svg"
@@ -35,7 +35,7 @@ const Footer = () => {
                         </svg>
                     </Link>
                 </li>
-                <li className="text-zinc-400 hover:text-white">
+                <li className="text-zinc-800 dark:text-zinc-400 hover:text-black dark:hover:text-white">
                     <Link
                         className="flex items-center px-1"
                         aria-label="LinkedIn"
@@ -43,8 +43,8 @@ const Footer = () => {
                         previewlistener="true"
                     >
                         <svg
-                            width="18"
-                            height="18"
+                            width="24"
+                            height="24"
                             viewBox="0 0 16 16"
 
                             xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +56,7 @@ const Footer = () => {
                         </svg>
                     </Link>
                 </li>
-                <li className="text-zinc-400 hover:text-white">
+                <li className="text-zinc-800 dark:text-zinc-400 hover:text-black dark:hover:text-white">
                     <Link
                         className="flex items-center px-1 "
                         aria-label="Peerlist"
@@ -64,8 +64,8 @@ const Footer = () => {
                         previewlistener="true"
                     >
                         <svg
-                            width="18"
-                            height="18"
+                            width="24"
+                            height="24"
                             viewBox="0 0 16 17"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
@@ -87,7 +87,7 @@ const Footer = () => {
                         </svg>
                     </Link>
                 </li>
-                <li className="text-zinc-400 hover:text-white" >
+                <li className="text-zinc-800 dark:text-zinc-400 hover:text-black dark:hover:text-white" >
                     <Link
                         className="flex items-center pl-1 "
 
@@ -96,8 +96,8 @@ const Footer = () => {
                         previewlistener="true"
                     >
                         <svg
-                            width="18"
-                            height="18"
+                            width="24"
+                            height="24"
                             viewBox="0 0 16 15"
                             fill=""
                             xmlns="http://www.w3.org/2000/svg"

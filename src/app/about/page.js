@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 
 const About = () => {
     return (
-        <div>
+        <div className="">
             <div className="mx-auto container max-w-6xl p-3 pt-10">
                 <div className="">
                     <div className="md:mb-10 mb-6 select-none">
@@ -17,26 +17,19 @@ const About = () => {
                             initial={{ opacity: 0, x: -50 }}
                             animate={{ opacity: 1, x: 0 }}
                             transition={{ duration: 0.5 }}
-                            className="sm:text-5xl text-3xl text-center text-white"
+                            className="sm:text-5xl text-3xl text-center"
                         >
                             Hey there.
                         </motion.h1>
                     </div>
                     <div className="md:mb-28 mb-10">
-                        <p className="text-zinc-400 leading-8">
-                            Hey, I&apos;m <strong className="text-white">Anukul Tyagi</strong> . I'm all about making websites feel like
-                            home. Based in <strong className="text-white">Noida</strong>, I'm here to bring a personal touch to the
-                            digital space.
+                        <p className="text-zinc-700 dark:text-zinc-400 leading-8">
+                            Hey, I&apos;m <strong className="text-black dark:text-white">Anukul Tyagi</strong>. I'm all about making websites feel like home. Based in <strong className="text-black dark:text-white">Noida</strong>, I'm here to bring a personal touch to the digital space.
                             <br />
-                            When I'm not coding, you can find me on the <strong className="text-white">volleyball</strong> court or
-                            enjoying a game of <strong className="text-white">badminton</strong> . Sports keep me grounded and
-                            inspired, ready to tackle any challenge that comes my way.
+                            When I'm not coding, you can find me on the <strong className="text-black dark:text-white">volleyball</strong> court or enjoying a game of <strong className="text-black dark:text-white">badminton</strong>. Sports keep me grounded and inspired, ready to tackle any challenge that comes my way.
                             <br />
                             <br />
-                            So, let's <strong className="text-white">collaborate</strong>  and create something amazing together!
-                            Whether you're looking to refresh your website or start from
-                            scratch, I'm here to turn your digital dreams into reality. Take a
-                            peek at my portfolio, and let's make magic happen!
+                            So, let's <strong className="text-black dark:text-white">collaborate</strong> and create something amazing together! Whether you're looking to refresh your website or start from scratch, I'm here to turn your digital dreams into reality. Take a peek at my portfolio, and let's make magic happen!
                         </p>
                     </div>
                     <div className="md:mb-28 mb-10">
@@ -62,13 +55,13 @@ const About = () => {
                                     ></path>
                                 </svg>
                             </h1>
-                            <p className="text-zinc-400">
+                            <p className="text-zinc-700 dark:text-zinc-400">
                                 A list of technologies/apps I use on a daily basis.
                             </p>
                             <div className="flex flex-wrap gap-4 my-4">
-                                <div className="flex items-center px-4 py-1 text-sm border rounded-full border-border gap-x-2 ">
+                                <div className="flex items-center px-4 py-1 text-sm border rounded-full border-zinc-400 dark:border-zinc-600 gap-x-2 ">
                                     <svg
-                                        className=" text-zinc-400 hover:text-white"
+                                        className="text-zinc-400 dark:text-zinc-500 hover:text-zinc-500 dark:hover:text-zinc-300"
                                         stroke="currentColor"
                                         fill="currentColor"
                                         strokeWidth="0"
@@ -81,9 +74,9 @@ const About = () => {
                                     </svg>
                                     HTML
                                 </div>
-                                <div className="flex items-center px-4 py-1 text-sm border rounded-full border-border gap-x-2 ">
+                                <div className="flex items-center px-4 py-1 text-sm border rounded-full border-zinc-400 dark:border-zinc-600 gap-x-2 ">
                                     <svg
-                                        className=" text-zinc-400 hover:text-white"
+                                        className="text-zinc-400 dark:text-zinc-500 hover:text-zinc-500 dark:hover:text-zinc-300"
                                         stroke="currentColor"
                                         fill="currentColor"
                                         strokeWidth="0"
@@ -96,9 +89,9 @@ const About = () => {
                                     </svg>
                                     CSS
                                 </div>
-                                <div className="flex items-center px-4 py-1 text-sm border rounded-full border-border gap-x-2 ">
+                                <div className="flex items-center px-4 py-1 text-sm border rounded-full border-zinc-400 dark:border-zinc-600 gap-x-2 ">
                                     <svg
-                                        className=" text-zinc-400 hover:text-white"
+                                        className="text-zinc-400 dark:text-zinc-500 hover:text-zinc-500 dark:hover:text-zinc-300"
                                         stroke="currentColor"
                                         fill="currentColor"
                                         strokeWidth="0"
@@ -112,9 +105,9 @@ const About = () => {
                                     JavaScript
                                 </div>
 
-                                <div className="flex items-center px-4 py-1 text-sm border rounded-full border-border gap-x-2 ">
+                                <div className="flex items-center px-4 py-1 text-sm border rounded-full border-zinc-400 dark:border-zinc-600 gap-x-2 ">
                                     <svg
-                                        className=" text-zinc-400 hover:text-white"
+                                        className="text-zinc-400 dark:text-zinc-500 hover:text-zinc-500 dark:hover:text-zinc-300"
                                         stroke="currentColor"
                                         fill="currentColor"
                                         strokeWidth="0"
@@ -127,9 +120,9 @@ const About = () => {
                                     </svg>
                                     React
                                 </div>
-                                <div className="flex items-center px-4 py-1 text-sm border rounded-full border-border gap-x-2 ">
+                                <div className="flex items-center px-4 py-1 text-sm border rounded-full border-zinc-400 dark:border-zinc-600 gap-x-2 ">
                                     <svg
-                                        className=" text-zinc-400 hover:text-white"
+                                        className="text-zinc-400 dark:text-zinc-500 hover:text-zinc-500 dark:hover:text-zinc-300"
                                         stroke="currentColor"
                                         fill="currentColor"
                                         strokeWidth="0"
@@ -142,9 +135,9 @@ const About = () => {
                                     </svg>
                                     Node.js
                                 </div>
-                                <div className="flex items-center px-4 py-1 text-sm border rounded-full border-border gap-x-2 ">
+                                <div className="flex items-center px-4 py-1 text-sm border rounded-full border-zinc-400 dark:border-zinc-600 gap-x-2 ">
                                     <svg
-                                        className=" text-zinc-400 hover:text-white"
+                                        className="text-zinc-400 dark:text-zinc-500 hover:text-zinc-500 dark:hover:text-zinc-300"
                                         stroke="currentColor"
                                         fill="none"
                                         strokeWidth="2"
@@ -161,9 +154,9 @@ const About = () => {
                                     </svg>
                                     Next.js
                                 </div>
-                                <div className="flex items-center px-4 py-1 text-sm border rounded-full border-border gap-x-2">
+                                <div className="flex items-center px-4 py-1 text-sm border rounded-full border-zinc-400 dark:border-zinc-600 gap-x-2">
                                     <svg
-                                        className=" text-zinc-400 hover:text-white"
+                                        className="text-zinc-400 dark:text-zinc-500 hover:text-zinc-500 dark:hover:text-zinc-300"
                                         stroke="currentColor"
                                         fill="currentColor"
                                         strokeWidth="0"
@@ -177,9 +170,9 @@ const About = () => {
                                     </svg>
                                     TailwindCSS
                                 </div>
-                                <div className="flex items-center px-4 py-1 text-sm border rounded-full border-border gap-x-2 ">
+                                <div className="flex items-center px-4 py-1 text-sm border rounded-full border-zinc-400 dark:border-zinc-600 gap-x-2 ">
                                     <svg
-                                        className=" text-zinc-400 hover:text-white"
+                                        className="text-zinc-400 dark:text-zinc-500 hover:text-zinc-500 dark:hover:text-zinc-300"
                                         width={28}
                                         height={28}
                                         viewBox="0 0 1.28 1.28"
@@ -195,9 +188,9 @@ const About = () => {
                                     </svg>
                                     Netlify
                                 </div>
-                                <div className="flex items-center px-4 py-1 text-sm border rounded-full border-border gap-x-2 ">
+                                <div className="flex items-center px-4 py-1 text-sm border rounded-full border-zinc-400 dark:border-zinc-600 gap-x-2 ">
                                     <svg
-                                        className=" text-zinc-400 hover:text-white"
+                                        className="text-zinc-400 dark:text-zinc-500 hover:text-zinc-500 dark:hover:text-zinc-300"
                                         stroke="currentColor"
                                         fill="currentColor"
                                         strokeWidth="0"
@@ -211,12 +204,13 @@ const About = () => {
                                     </svg>
                                     VSCode
                                 </div>
-                                <div className="flex items-center px-4 py-1 text-sm border rounded-full border-border gap-x-2 ">
+                                <div className="flex items-center px-4 py-1 text-sm border rounded-full border-zinc-400 dark:border-zinc-600 gap-x-2 ">
                                     <svg
+                                        className="text-zinc-400 dark:text-zinc-500 hover:text-zinc-500 dark:hover:text-zinc-300"
                                         width="25px"
                                         height="25px"
                                         viewBox="0 0 24 24"
-                                        dataName="Line Color"
+                                        dataname="Line Color"
                                         xmlns="http://www.w3.org/2000/svg"
                                     >
                                         <path
@@ -239,36 +233,33 @@ const About = () => {
                     <div className="">
                         <main className="min-h-[calc(100vh_-_132px)] ">
                             <h2 className="mb-5 text-xl md:text-3xl font-medium">Work</h2>
-                            <p className="text-zinc-400">
-                                I'm a <strong className="text-white">Frontend Developer</strong>{" "}
-                                aspiring to make a mark in the world of web builders. My focus
-                                is on creating solutions that solve real-life problems, whether
-                                working{" "}
-                                <b className="font-normal text-white">collaboratively</b> or{" "}
-                                <b className="font-normal text-white">independently.</b>
+                            <p className="text-zinc-700 dark:text-zinc-400">
+                                I'm a <strong className="text-black dark:text-white">Frontend Developer</strong> aspiring to make a mark in the world of web builders. My focus is on creating solutions that solve real-life problems, whether working{" "}
+                                <b className="font-normal text-black dark:text-white">collaboratively</b> or{" "}
+                                <b className="font-normal text-black dark:text-white">independently.</b>
                             </p>
                             <span className="mt-12 h-0 block"></span>
                             <div className="mb-8 ms-8 sm:ms-12">
                                 <h2 className="text-xl font-medium">Aqusag Technologies</h2>
-                                <p className="md:text-base text-zinc-400">Noida, India</p>
+                                <p className="md:text-base text-zinc-700 dark:text-zinc-400">Noida, India</p>
                                 <div className="md:pl-8 positions mt-4">
                                     <div className="mt-4">
                                         <h3 className="md:text-lg">Frontend Developer</h3>
-                                        <p className="text-sm text-zinc-400">
+                                        <p className="text-sm text-zinc-700 dark:text-zinc-400">
                                             Mar 2023 - Oct 2023 (Full-Time)
                                         </p>
-                                        <p className="text-sm mt-3 list-item ml-3 text-zinc-400">
+                                        <p className="text-sm mt-3 list-item ml-3 text-zinc-700 dark:text-zinc-400">
                                             Responsible for converting client's design requirements
                                             into functional and Aesthetic UI Layouts using HTML, CSS
                                             and JS.
 
                                         </p>
-                                        <p className="text-sm mt-3 list-item ml-3 text-zinc-400">
+                                        <p className="text-sm mt-3 list-item ml-3 text-zinc-700 dark:text-zinc-400">
                                             Gained an understanding and the importance of
                                             maintaining consistency and accessibility throughout the
                                             UI.
                                         </p>
-                                        <p className="text-sm mt-3 list-item ml-3 text-zinc-400">
+                                        <p className="text-sm mt-3 list-item ml-3 text-zinc-700 dark:text-zinc-400">
                                             Gained experience of using version control git that
                                             allowed me to collaborate effectively.
                                         </p>
@@ -277,20 +268,19 @@ const About = () => {
                             </div>
                             <div className="mb-8 ms-8 sm:ms-12">
                                 <h2 className="text-xl font-medium">Freelancer</h2>
-                                <p className="md:text-base text-zinc-400">Noida, India</p>
+                                <p className="md:text-base text-zinc-700 dark:text-zinc-400">Noida, India</p>
                                 <div className="md:pl-8 positions mt-4">
                                     <div className="mt-4">
-                                        <p className="text-sm text-zinc-400">
+                                        <p className="text-sm text-zinc-700 dark:text-zinc-400">
                                             Aug 2023 - present (Full-Time)
                                         </p>
-                                        <p className="text-sm mt-3 list-item ml-3 text-zinc-400">
+                                        <p className="text-sm mt-3 list-item ml-3 text-zinc-700 dark:text-zinc-400">
                                             In addition to my work as a Frontend Developer, I'm deeply involved in the freelance community.
                                         </p>
-                                        <p className="text-sm mt-3 list-item ml-3 text-zinc-400">
-                                            As a freelancer, I've collaborated with different developers across same domain , working on projects ranging from custom web development to API integrations.
+                                        <p className="text-sm mt-3 list-item ml-3 text-zinc-700 dark:text-zinc-400">
+                                            As a freelancer, I've collaborated with different developers across the same domain, working on projects ranging from custom web development to API integrations.
                                         </p>
-                                        <p className="text-sm mt-3 list-item ml-3 text-zinc-400">
-
+                                        <p className="text-sm mt-3 list-item ml-3 text-zinc-700 dark:text-zinc-400">
                                             I take pride in delivering high-quality solutions that not only meet my client's needs but also exceed their expectations, maintaining clear communication and a strong commitment to deadlines.
                                         </p>
                                     </div>

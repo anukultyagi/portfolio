@@ -11,12 +11,13 @@ const Button = (props) => {
         //     <span className="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-gray-900">{children}</span>
         //     <span className="absolute inset-0 border border-white "></span>
         // </button>
-        <button className={`${className} relative flex items-center w-fit py-2 px-6 justify-center overflow-hidden border border-zinc-200 text-white hover:border-zinc-400 hover:text-black transition-all 
+        <button className={`${className} relative flex items-center w-fit py-2 px-6 justify-center overflow-hidden border dark:border-zinc-200 border-zinc-400 text-black dark:text-white hover:border-zinc-400 hover:text-white dark:hover:text-black transition-all 
                     before:absolute before:h-0 before:w-0 
-                    before:rounded-full before:bg-white
+                    before:rounded-full dark:before:bg-white before:bg-black
                     before:duration-500 before:ease-out 
                     hover:before:h-56
-                    hover:before:w-56`}>
+                    hover:before:w-56
+                    `}>
             <span className="relative z-10 w-full ">{children}</span>
         </button>
 

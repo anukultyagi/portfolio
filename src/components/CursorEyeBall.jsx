@@ -49,10 +49,10 @@ const CursorEyeBall = () => {
             data-scroll-speed="0.05"
             className='  '
         >
-            <div className="  flex justify-center items-center gap-[2vw]">
+            <div className="flex justify-center items-center gap-[2vw]">
                 <div
                     id="myfdiv"
-                    className="w-[190px] h-[190px] rounded-full max-[550px]:w-[34.5vw] max-[550px]:h-[34.5vw] bg-zinc-100 relative"
+                    className="w-[190px] h-[190px] rounded-full max-[550px]:w-[34.5vw] max-[550px]:h-[34.5vw] bg-zinc-100   border-2 border-black relative"
                 >
                     <h1 className="z-[10] text-[16px] max-[550px]:text-[2.95vw] text-zinc-100 absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
                         PLAY
@@ -68,7 +68,7 @@ const CursorEyeBall = () => {
                 </div>
                 <div
                     id="mysdiv"
-                    className="rounded-full w-[190px] h-[190px] max-[550px]:w-[34.5vw] max-[550px]:h-[34.5vw] bg-zinc-100 relative"
+                    className="rounded-full w-[190px] h-[190px] max-[550px]:w-[34.5vw] max-[550px]:h-[34.5vw] bg-zinc-100 border-2 border-black relative"
                 >
                     <h1 className="z-[10] text-[16px] max-[550px]:text-[2.95vw] text-zinc-100 absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
                         PLAY

@@ -3,13 +3,11 @@ import React from "react";
 import { workData } from "@/data";
 import { motion } from "framer-motion";
 
-
 const Work = () => {
     return (
         <div className="container mx-auto max-w-6xl p-3">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
                 {workData.map((project) => (
-
                     <motion.div
                         key={project.id}
                         initial={{ opacity: 0, x: -50 }}
@@ -26,26 +24,25 @@ const Work = () => {
                                 backgroundPosition: "center",
                             }}
                         >
-
-                            <div className="absolute flex flex-col justify-end w-full h-full p-4 rounded-lg bg-gradient-to-t from-black/80 to-black/50 gap-y-2">
-                                <h2 className="text-xl font-semibold text-white">
+                            <div className="absolute flex flex-col justify-end w-full h-full p-4 rounded-lg bg-gradient-to-t from-black/80 to-black/50 dark:from-zinc-800/90 dark:to-zinc-800/60 gap-y-2">
+                                <h2 className="text-xl font-semibold text-white dark:text-zinc-200">
                                     {project.title}
                                 </h2>
-                                <p className="text-xs text-white text-opacity-90"> {/* Increased text opacity for visibility */}
+                                <p className="text-xs text-white text-opacity-90 dark:text-zinc-300">
                                     {project.description}
                                 </p>
                                 <div className="flex flex-wrap gap-2 mt-2">
                                     {project.tags.map((tag, index) => (
                                         <span
                                             key={index}
-                                            className="text-xs font-semibold text-white bg-secondary px-2 py-0.5 rounded-sm"
+                                            className="text-xs font-semibold text-white dark:text-zinc-200 bg-secondary px-2 py-0.5 rounded-sm"
                                         >
                                             {tag}
                                         </span>
                                     ))}
                                 </div>
                                 <a
-                                    className="flex items-center mt-1 text-xs text-white hover:underline gap-x-1"
+                                    className="flex items-center mt-1 text-xs text-white hover:underline dark:text-zinc-200 gap-x-1"
                                     href={project.link}
                                     target="_blank"
                                     rel="noopener noreferrer"
@@ -67,10 +64,8 @@ const Work = () => {
                                     </svg>
                                 </a>
                             </div>
-
                         </div>
                     </motion.div>
-
                 ))}
             </div>
         </div>
