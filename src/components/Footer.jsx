@@ -73,14 +73,14 @@ const Footer = () => {
                             <path
                                 d="M6 11.9V5.1H8.66667C9.19707 5.1 9.7058 5.31493 10.0809 5.6975C10.4559 6.08008 10.6667 6.59896 10.6667 7.14C10.6667 7.68101 10.4559 8.19992 10.0809 8.58248C9.7058 8.96505 9.19707 9.18 8.66667 9.18H6"
                                 stroke="currentColor"
-                                stroke-width="1.5"
+                                strokeWidth="1.5"
                                 stroke-linecap="round"
                                 stroke-linejoin="round"
                             ></path>
                             <path
                                 d="M8 2.21C12.9333 2.21 14.1667 3.468 14.1667 8.5C14.1667 13.532 12.9333 14.79 8 14.79C3.06667 14.79 1.83334 13.532 1.83334 8.5C1.83334 3.468 3.06667 2.21 8 2.21Z"
                                 stroke="currentColor"
-                                stroke-width="1.5"
+                                strokeWidth="1.5"
                                 stroke-linecap="round"
                                 stroke-linejoin="round"
                             ></path>
