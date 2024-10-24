@@ -2,6 +2,7 @@
 import React from "react";
 import { workData } from "@/data";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const Work = () => {
     return (
@@ -16,14 +17,17 @@ const Work = () => {
                         role="group"
                         className="relative rounded-lg overflow-hidden"
                     >
-                        <div
-                            className="w-full h-[250px] rounded-lg relative"
-                            style={{
-                                backgroundImage: `url(${project.imageUrl.src})`,
-                                backgroundSize: "cover",
-                                backgroundPosition: "center",
-                            }}
-                        >
+                        <div className="w-full h-[250px] rounded-lg relative">
+
+                            <Image
+                                src={project.imageUrl.src}
+                                alt={project.title}
+                                fill
+                                object-fit="cover"
+                                quality={80}
+                                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                                className="rounded-lg"
+                            />
                             <div className="absolute flex flex-col justify-end w-full h-full p-4 rounded-lg bg-gradient-to-t from-black/80 to-black/50 dark:from-zinc-800/90 dark:to-zinc-800/60 gap-y-2">
                                 <h2 className="text-xl font-semibold text-white dark:text-zinc-200">
                                     {project.title}
