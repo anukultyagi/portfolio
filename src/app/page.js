@@ -6,7 +6,6 @@ import { motion } from 'framer-motion';
 const HomePage = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [cursorVariant, setCursorVariant] = useState('default');
-  const [isDarkMode, setIsDarkMode] = useState(false); // Track theme
 
   useEffect(() => {
     const handleMouseMove = (e) => {
